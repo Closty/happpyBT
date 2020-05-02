@@ -1,7 +1,4 @@
-# happpyBT
-宝塔版专业版破解
-
-## 7.0.2版本（适用内存足的服务器）
+# 7.0.2版本（适用内存足的服务器）
 
 <h1>脚本简介</h1>
 <div>
@@ -172,8 +169,6 @@ Ubuntu/Debian -1 拉黑解决<code>apt-get install e2fsprogs && wget -O ovo.sh h
 </div>
 
 <div>
-<h2 onclick="if (!window.__cfRLUnblockHandlers) return false; OpenChangeLog();">更新日志</h2>
-<div>
 
 </div>
 </div>
@@ -283,8 +278,7 @@ Ubuntu/Debian -1 拉黑解决<code>apt-get install e2fsprogs && wget -O ovo.sh h
 </div>
 
 <div>
-<h2 onclick="if (!window.__cfRLUnblockHandlers) return false; OpenChangeLog();">更新日志</h2>
-<div>
+
 
 </div>
 </div>
