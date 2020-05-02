@@ -1,6 +1,8 @@
 # happpyBT
 宝塔版专业版破解
 
+## 7.0.2版本（适用内存足的服务器）
+
 <h1>脚本简介</h1>
 <div>
 <p>本次面板版本：7.0.2<br>本脚本支持一键安装开心版宝塔面板 以及 已经安装宝塔面板升级开心版！<br>
@@ -172,25 +174,120 @@ Ubuntu/Debian -1 拉黑解决<code>apt-get install e2fsprogs && wget -O ovo.sh h
 <div>
 <h2 onclick="if (!window.__cfRLUnblockHandlers) return false; OpenChangeLog();">更新日志</h2>
 <div>
-<table>
-<thead>
-<tr>
-<th style="text-align: left">BT_Panel版本</th>
-<th style="text-align: left"><center>宝塔版本</center></th>
-<th style="text-align: left">更新日志</th>
-<th style="text-align: left">最后更新时间</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left"><center>15.1</center></td>
-<td style="text-align: left"><center>7.0.2<font size="" color="#ff0000"> &lt;开心版&gt;</font></center></td>
-<td style="text-align: left"><center><a href="https://52bt.cn/log/log.txt" target="_blank">查看</a></center></td>
-<td style="text-align: left"><center>2019/10/18</center></td>
-</tr>
-</tbody>
-</table>
+
 </div>
 </div>
 
 </section>
+
+## 5.9.1（适用小机器）
+
+
+<h1>脚本简介</h1>
+<div>
+<p>本次面板版本：5.9.1<br>本脚本支持一键安装开心版宝塔面板 以及 已经安装宝塔面板升级开心版！<br>
+感谢大家使用该脚本，本脚本未加密，有没有后门大家自己看就知道了，仅仅将书记的脚本本地化了，未经任何修改，请放心使用！<br>
+本次脚本支持：Centos 7、Debian、Ubuntu！<br>
+</p>
+</div>
+</div>
+<div>
+<h2>脚本特点</h2>
+<div>
+<blockquote>
+<p>
+1. 本次脚本 放在 腾讯3m香港小鸡上，速度会很慢，大家耐心等待。。。 如果还出现 问题 把服务器 dns 改成 8.8.8.8 8.8.4.4 怎么改 谷歌！<br>
+2. 杜绝盗取本脚本 非法出事 请大家使用 开心版的同时 支持正版！<br>
+3. 允许转载本脚本、需留下出处！<br>
+4. 为了安全考虑，面板端口已经由 8888 改 8899 若无法打开面板，请放行8899端口！<br>
+5. 插件直接面板安装即可用！<br>
+</p></blockquote>
+</div>
+</div>
+<div>
+<h2>面板日志</h2>
+<div>
+<blockquote>
+<p>
+1、优化验证码模块，增强可辨识度<br>
+2、优化面板加载逻辑，提升面板响应速度<br>
+3、修正部分服务器因升级Openssl之后导致面板异常的问题<br>
+4、修正部分地区无法正常绑定小程序的问题<br>
+</p></blockquote>
+</div>
+</div>
+<div>
+<h2>更新技巧</h2>
+<div>
+1.如果 你是免费的 5.x 宝塔面板 可以使用脚本 升到最新的开心版 5.9.1 面板（或者输入：<code>curl https://52bt.cn/install/update_pro.sh|bash</code>）！<br>
+<br>
+结束：该版本 完美破解版，无任何bug～！别打脸～！
+
+<p></p>
+</div>
+</div>
+<div>
+<h2>安装 5.9.1 面板</h2>
+<div>
+<h4>Bt_Panel_Pro 腳本（Centos）：<span>极速安装方式  (安装时间1至10分钟)</span></h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><strong><code>yum install -y wget &amp;&amp; wget -O install.sh https://52bt.cn/install/install.sh &amp;&amp; sh install.sh</code></strong>
+</pre></div></div>
+</div>
+</div>
+
+
+<div>
+<div>
+<h4>Bt_Panel_Pro 腳本（Ubuntu）：<span>极速安装方式  (安装时间1至10分钟)</span></h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><strong><code>wget -O install.sh https://52bt.cn/install/install-ubuntu.sh &amp;&amp; sudo bash install.sh</code></strong>
+</pre></div></div>
+</div>
+</div>
+
+
+<div>
+<div>
+<h4>Bt_Panel_Pro 腳本（Debian）：<span>极速安装方式  (安装时间1至10分钟)</span></h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><strong><code>wget -O install.sh https://52bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh</code></strong>
+</pre></div></div>
+</div>
+</div>
+
+
+<div>
+<div>
+<h4>Bt_Panel_Pro 腳本（Fedora）：<span>极速安装方式  (安装时间1至10分钟)</span></h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><strong><code>wget -O install.sh https://52bt.cn/install/install.sh &amp;&amp; bash install.sh</code></strong>
+</pre></div></div>
+</div>
+</div>
+
+
+<h2>已经安装面板</h2>   
+<div> 
+<div>
+<h4>Bt_Panel 脚本（升级开心版）：<span>极速安装方式  (安装时间1至10秒)</span></h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><strong><code>curl https://52bt.cn/install/update_pro.sh|bash</code></strong>
+</pre></div></div>
+</div>
+</div> 
+  
+
+
+<div>
+<div>
+<h4>不想使用開心版的，直接使用官方腳本轉成免費</h4>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><strong><code>wget -O update.sh http://download.bt.cn/install/update.sh &amp;&amp; bash update.sh free</code></strong>
+</pre></div></div>
+</div>
+</div>
+
+<div>
+<h2 onclick="if (!window.__cfRLUnblockHandlers) return false; OpenChangeLog();">更新日志</h2>
+<div>
+
+</div>
+</div>
+
+</section>
+
