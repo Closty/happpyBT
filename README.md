@@ -1,3 +1,47 @@
+# 前期准备
+
+## 安装python
+1.安装前查看当前系统下的python版本号
+
+python -V
+
+2.获取python3.x的官方软件包
+
+`wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz`
+
+3.解压缩该软件包
+
+tar -zxvf Python-3.6.5.tgz
+
+4.在解压目录下安装配置
+
+`cd Python-3.6.5`
+
+`./configure`
+
+5.编译并安装
+
+`make`
+
+`make install`
+
+6.验证当前系统下安装的python版本号
+
+`python3 -V`
+
+## 安装pip
+1.用脚本安装pip<br>
+`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`<br>
+`python get-pip.py`   #会看到Successfully.....等安装成功的字样<br>
+
+2.yum安装pip<br>
+2.1 首先安装拓展源<br>
+
+`yum -y install epel-release`<br>
+2.2安装pip<br>
+
+`yum -y install python-pip`
+
 # 7.0.2版本（适用内存足的服务器）
 
 <h1>脚本简介</h1>
